@@ -17,11 +17,11 @@ function setGradient () {
 
 	 css.textContent = body.style.background + ";";
 }
-/* the rgba for the original colors*/
+/* the rgb for the original colors*/
 css.textContent = original
-/* the rgba for the first (left) color */
+/* the rgb for the first (left) color */
 color1.addEventListener("input", setGradient);
 
-/* the rgba for the second (right) color */
+/* the rgb for the second (right) color */
 color2.addEventListener("input", setGradient);
 
